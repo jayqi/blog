@@ -11,8 +11,8 @@ enableEmoji = true
 title = "Hi, I'm Jay."
 content = "Data scientist, software developer, erstwhile aerospace engineer"
 imageUrl = "images/jqi_photo.jpg"
-imageWidth = "180px"
-imageHeight = "180px"
+imageWidth = "180"
+imageHeight = "180"
 
 [[params.socialIcons]]
 name = "GitHub"
