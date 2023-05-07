@@ -1,16 +1,18 @@
 {{ $img := resources.Get "images/jqi_photo.jpg" }}
+{{ $width := .Get "width" }}
+{{ $height := .Get "height" }}
 {{- $processableFormats := (slice "jpg" "jpeg" "png" "tif" "bmp" "gif") -}}
 {{- if hugo.IsExtended -}}
     {{- $processableFormats = $processableFormats | append "webp" -}}
 {{- end -}}
 {{- $prod := (hugo.IsProduction | or (eq site.Params.env "production")) }}
 {{- if and (in $processableFormats $img.MediaType.SubType) (eq $prod true)}}
-    {{- if (not (and (not .imageHeight) (not .imageWidth))) }}
-        {{- $img = $img.Resize (printf "%dx%d" .imageWidth .imageHeight) }}
-    {{- else if .imageHeight }}
-        {{- $img = $img.Resize (printf "x%d" .imageHeight) }}
-    {{ else if .imageWidth }}
-        {{- $img = $img.Resize (printf "%dx" .imageWidth) }}
+    {{- if and $width $height }}
+        {{- $img = $img.Resize (printf "%dx%d" $width $height) }}
+    {{- else if $height }}
+        {{- $img = $img.Resize (printf "x%d" $height) }}
+    {{ else if $width }}
+        {{- $img = $img.Resize (printf "%dx" $width) }}
     {{ else }}
         {{- $img = $img.Resize "150x150" }}
     {{- end }}
