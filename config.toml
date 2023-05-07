@@ -1,10 +1,9 @@
-baseURL = 'https://jayqi.com/'
-languageCode = 'en-us'
-title = 'Jay Qi'
+baseURL = "https://jayqi.com/"
+languageCode = "en-us"
+title = "Jay Qi"
 copyright = "© 2023 Jay Qi •"
 
 theme = "PaperMod"
-
 enableEmoji = true
 
 [params.homeInfoParams]
@@ -13,6 +12,7 @@ content = "Data scientist, software developer, erstwhile aerospace engineer"
 imageUrl = "images/jqi_photo.jpg"
 imageWidth = 180
 imageHeight = 180
+
 
 [[params.socialIcons]]
 name = "GitHub"
@@ -39,6 +39,7 @@ url = "/archives/"
 weight = 20
 
 [params]
+description = "Jay Qi's personal website and blog"
 theme = "auto"
 showReadingTime = true
 showCodeCopyButtons = true

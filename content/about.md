@@ -3,7 +3,7 @@ title: About Me
 showReadingTime: false
 ---
 
-{{< profile_photo width=240 style="float: right; margin-top: 0; margin-left: 1.5em; margin-bottom: 1.5em; border-radius: 16px;" >}}
+{{< profile_photo width=200 height=200 style="float: right; margin-top: 0; margin-left: 1.5em; margin-bottom: 1.5em; border-radius: 16px;" alt="Photo of Jay.">}}
 
 Hi, I'm Jay. :wave:
 
