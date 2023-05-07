@@ -1,0 +1,21 @@
+.home-info-container {
+    display: flex;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.home-info {
+    min-height: 0;
+}
+
+.home-info-image-container {
+    margin-left: auto;
+    float: right;
+}
+
+.home-info-image-container img {
+    border-radius: 12px;
+    object-fit: cover;
+    min-width: 140px;
+    margin-top: 14px;
+}

@@ -1,0 +1,47 @@
+baseURL = 'https://jayqi.com/'
+languageCode = 'en-us'
+title = 'Jay Qi'
+copyright = "© 2023 Jay Qi •"
+
+theme = "PaperMod"
+
+enableEmoji = true
+
+[params.homeInfoParams]
+title = "Hi, I'm Jay."
+content = "Data scientist, software developer, erstwhile aerospace engineer"
+imageUrl = "images/jqi_photo.jpg"
+imageWidth = "180px"
+imageHeight = "180px"
+
+[[params.socialIcons]]
+name = "GitHub"
+url = "https://github.com/jayqi"
+[[params.socialIcons]]
+name = "Twitter"
+url = "https://twitter.com/jayyqi"
+[[params.socialIcons]]
+name = "Mastodon"
+url = "https://mastodon.social/@jayqi"
+[[params.socialIcons]]
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/jayqi/"
+
+[[menu.main]]
+identifier = "about"
+name = "about"
+url = "/about/"
+weight = 10
+[[menu.main]]
+identifier = "archive"
+name = "archive"
+url = "/archives/"
+weight = 20
+
+[params]
+theme = "auto"
+showReadingTime = true
+showCodeCopyButtons = true
+
+[markup.goldmark.renderer]
+unsafe = true
