@@ -3,7 +3,7 @@ title: About Me
 showReadingTime: false
 ---
 
-<img src="/images/jqi_photo.jpg" style="float: right; width: 240px; margin-top: 0; margin-left: 1.5em; margin-bottom: 1.5em; border-radius: 16px;" />
+{{< profile_photo width=240 style="float: right; margin-top: 0; margin-left: 1.5em; margin-bottom: 1.5em; border-radius: 16px;" >}}
 
 Hi, I'm Jay. :wave:
 
