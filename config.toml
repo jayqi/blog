@@ -13,13 +13,15 @@ imageUrl = "images/jqi_photo.jpg"
 imageWidth = 180
 imageHeight = 180
 
-
 [[params.socialIcons]]
 name = "GitHub"
 url = "https://github.com/jayqi"
 [[params.socialIcons]]
 name = "Twitter"
 url = "https://twitter.com/jayyqi"
+[[params.socialIcons]]
+name = "Bluesky"
+url = "https://bsky.app/profile/jayqi.bsky.social"
 [[params.socialIcons]]
 name = "Mastodon"
 url = "https://mastodon.social/@jayqi"
