@@ -32,3 +32,15 @@
 # a pull/merge request will inherit these settings.
 [context.deploy-preview]
   command = "hugo --minify --baseURL $DEPLOY_PRIME_URL"
+
+## REDIRECTS
+
+[[redirects]]
+  from = "/blog/2020-11-25_nbautoexport-jupyter-code-review/"
+  to = "/blog/nbautoexport-jupyter-code-review/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2023-03-09_python-packaging-in-early-2023/"
+  to = "/blog/python-packaging-in-early-2023/"
+  status = 301
