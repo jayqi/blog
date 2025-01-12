@@ -26,9 +26,9 @@
 # here but we recommend using the Netlify UI for sensitive
 # values to keep them out of your source repository.
 [context.production]
-  command = "hugo --minify --baseUrl $PROD_BASE_URL"
+  command = "hugo --minify --baseURL $PROD_BASE_URL"
 
 # Deploy Preview context: all deploys generated from
 # a pull/merge request will inherit these settings.
 [context.deploy-preview]
-  command = "hugo --minify --baseUrl $DEPLOY_PRIME_URL"
+  command = "hugo --minify --baseURL $DEPLOY_PRIME_URL"
