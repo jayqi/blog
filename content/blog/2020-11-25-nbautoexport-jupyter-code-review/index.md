@@ -1,6 +1,7 @@
 ---
 title: Easier Code Reviews for Jupyter Notebooks with nbautoexport
 date: 2020-11-25
+slug: nbautoexport-jupyter-code-review
 summary: How my team at DrivenData uses nbautoexport, an open-source tool we developed, to make Jupyter Notebook code reviews easier.
 canonicalURL: https://drivendata.co/blog/nbautoexport-jupyter-code-review/
 showCanonicalLink: true

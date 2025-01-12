@@ -1,6 +1,7 @@
 ---
 title: The Basics of Python Packaging in Early 2023
 date: 2023-03-09
+slug: python-packaging-in-early-2023
 summary: Explaining the basic concepts and best practices for creating Python packages in early 2023 using pyproject.toml build standards.
 canonicalURL: https://drivendata.co/blog/python-packaging-2023
 showCanonicalLink: true
