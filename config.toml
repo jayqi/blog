@@ -1,7 +1,6 @@
-baseURL = "https://jayqi.com/"
 languageCode = "en-us"
 title = "Jay Qi"
-copyright = "© 2023 Jay Qi •"
+copyright = "© 2025 Jay Qi •"
 
 theme = "PaperMod"
 enableEmoji = true
