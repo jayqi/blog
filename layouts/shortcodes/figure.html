@@ -11,7 +11,7 @@
          {{- end -}}
          {{- with .Get "width" }} width="{{ . }}"{{ end -}}
          {{- with .Get "height" }} height="{{ . }}"{{ end -}}
-         {{- with .Get "border" }} style="border: {{ . }};"{{ end -}}
+         style="{{- with .Get "border" }}border: {{ . }};{{ end -}}{{- with .Get "width" }} width: 100%; max-width: {{ . }}px;{{ end -}}{{- with .Get "height" }} height: 100%; max-height: {{ . }}px;{{ end -}}"
     /> <!-- Closing img tag -->
     {{- if .Get "link" }}</a>{{ end -}}
     {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr") -}}
