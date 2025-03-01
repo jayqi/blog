@@ -20,7 +20,7 @@ name = "Twitter"
 url = "https://twitter.com/jayyqi"
 [[params.socialIcons]]
 name = "Bluesky"
-url = "https://bsky.app/profile/jayqi.bsky.social"
+url = "https://bsky.app/profile/jayqi.com"
 [[params.socialIcons]]
 name = "Mastodon"
 url = "https://mastodon.social/@jayqi"
