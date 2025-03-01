@@ -8,6 +8,13 @@ hugo server
 
 ## Update PaperMod theme
 
+When cloning a new copy of the repo:
+
+```bash
+git submodule init
+git submodule update
+```
+
 Update the submodule:
 
 ```bash
